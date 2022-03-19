@@ -86,4 +86,13 @@ select count(distinct productid)
 from orderdetails;
 
 
+/*  substring */
+select substring('abcdef', 2, 3 );
+/*  concat(A,B) 將A字串與B字串結合 */
+select concat(lastname, ' ' ,firstname)
+from employees;
+
+/*  replace(A,'cde','fgh') 將A欄位或字串中的cdf文字換成fgh文字 */
+select replace(lastname ,'D', 'A')
+from employees;
 
